@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Imobiliária</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Moradda Imóveis</h1>
+    <nav>
+      <a href="#">Imóveis</a>
+      <a href="#">Entre em Contato</a>
+      <a href="https://wa.me/5547999999999" target="_blank">WhatsApp</a>
+    </nav>
+  </header>
+
+  <section class="filtros">
+    <select id="tipoFiltro">
+      <option value="">Todos os Tipos</option>
+      <option value="Casa">Casa</option>
+      <option value="Apartamento">Apartamento</option>
+      <option value="Geminado">Geminado</option>
+    </select>
+
+    <select id="bairroFiltro">
+      <option value="">Todos os Bairros</option>
+      <option value="Aventureiro">Aventureiro</option>
+      <option value="Costa e Silva">Costa e Silva</option>
+      <option value="Floresta">Floresta</option>
+    </select>
+  </section>
+
+  <section id="listaImoveis" class="imoveis"></section>
+
+  <script src="script.js"></script>
+</body>
+</html>
